@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <style>
+        body{
+    background-size:100% 900%;
+    background-image: url('lightning.jpg');
+    background-repeat:no-repeat;
+    }
+        .contain{
+            position:fixed;
+            margin-left:400px;
+            right:0;
+            top:0;
+            width:75%;
+            height:100%;
+            overflow:hidden;
+            color:azure;
+        }
+        #myself,#hobby,#perception,#question{
+            width:75%;
+            height:100%;
+            padding-top:150px;
+        }
+        h1{text-align:center ;
+           color:aliceblue}
+        h1::first-letter{
+                 color:darkturquoise;
+                 font-size:xxx-large;
+        }
+        h1.small:{font-variant:small-caps;}
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:20%;
+    background-color:transparent;
+    position:fixed;
+    height:100%;
+    overflow:auto;
+    font-size:40px
+}
+li a {
+      display:block;
+      color:aquamarine;
+      padding:8px 16px;
+      text-decoration:azure;
+}
+li a.active{
+    background-color:transparent
+    color:aliceblue
+}
+li a:hover:not(.active){
+    background-color:bisque;
+    color:brown;
+}
+h2{text-align:center ;
+    color:aliceblue}
+#myself{font-family:"Trebuchet MS",Arial,Helvetica,serif;
+        width:80%
+        border-collapse:collapse;
+        }
+#myself,td,th{
+              border:1px solid azure;
+              font-size:30px;
+              text-align: center;
+              padding-bottom:10px;
+              padding-top:15px;
+              color:whitesmoke
+              background-color:transparent;}
+span{
+    float:left;
+    width:1.2em;
+    font-size:300%;
+    font-family:algerian,courier;
+    line-height:80%;
+}
+
+    </style>
+    </head>
+<body>
+    <h1 class="small">Welcome to my brief introduction</h1>
+    <ul>
+        <li><a class="active"href="#myself">我</a></li>
+        <li><a href="#hobby">爱好</a></li>
+        <li><a href="#perception">心得</a></li>
+        <li><a href="#question">遗留问题</a></li>
+    <div class="contain">
+        <div id = "myself" ><div style="margin-left:20%;padding:10px 10px;height:75%;">
+            <h2>自我介绍</h2>
+            <p>
+               <table id="myself">
+                   <tr><th>姓名</th>
+                       <td>黄恒洋</td></tr>
+                   <tr><th>性别</th>
+                       <td>男</td></tr>
+                   <tr><th>学号</th>
+                       <td>2020090914010</td></tr>
+                   <tr><th>学院</th>
+                       <td>信息与软件工程</td></tr>
+                   <tr><th>联系方式</th>
+                       <td>18149020860</td></tr>
+               </table></p></div></div>
+        <div id = "hobby" ><span>我</span>对于运动很感兴趣，喜欢各种球类运动，擅长足球。平时喜欢拉小提琴，并且达到十级水平。平日里没事喜欢唱歌街舞，对于学习新知识很感兴趣，例如才学习不久的法语，虽然没学过信息竞赛，但是网页的制作与游戏方面的设计却深深吸引了我，我想这也是我大学四年该为之努力的方向。</div>
+        <div id = "perception" ><span>在</span>这次学习过程中，我有时因为对于教程的不仔细阅读造成有些概念不清楚，但学长们都愿意在第一时间内为我细心解答，使我充分感受到了微光工作室的团结，有了他们的帮助在我一次次尝试下我才能取得一次小胜利，但我也应加强自己的能力，达到独立阅读理解学习制作的水平，不断超越自我。</div>
+        <div id = "question" ><span>经</span>过这次的网页制作，我深刻理解到了网页制作的技巧以及阅读理解能力的重要性，在对于网页排版方面我还缺少经验，经常花费大量时间去完成这些操作，还有对于div块级元素的使用不够熟练,自己独立解决问题能力还欠缺。link、hover部分知识不够熟练,还请学长能传授透明框用法。</div>
+    </div>
+</body>
+
+</html>
